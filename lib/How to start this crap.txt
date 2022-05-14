@@ -1,0 +1,7 @@
+
+How to start emulator:
+1. Choose mobile emulator in the first tab
+2. Wait until it shows in the first tab
+3. Click the green arrow
+4. Wait for Gradle
+5. Click the emulator power button
