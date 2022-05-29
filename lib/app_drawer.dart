@@ -7,7 +7,7 @@ class AppDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
         child: Container(
-          color: Colors.blue,
+          color: Colors.amber,
           child: Column(
             children:
             [
@@ -33,7 +33,8 @@ class AppDrawer extends StatelessWidget {
               ListTile(leading: Icon(Icons.edit),
                   title: Text("Settings"),
                   textColor: mainColor,
-                  iconColor: mainColor)
+                  iconColor: mainColor,
+                  onTap:()=>Navigator.pushNamed(context, "/settings"))
             ],
       ),
     ));
